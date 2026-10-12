@@ -1,0 +1,14 @@
+interface:
+  display_name: Sebentar, Paham. Video
+  short_description: Video IT dengan ilustrasi objek dan narasi ekspresif
+  default_prompt: Gunakan $sebentar-paham-video untuk membuat satu fun fact IT dengan
+    ilustrasi yang jelas; kirim hanya video vertikal dan audio narasi.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

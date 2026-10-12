@@ -1,0 +1,48 @@
+{
+  "name": "Sebentar, Paham.",
+  "style": "warm editorial motion graphics",
+  "primary_ratio": "9:16",
+  "fps": 30,
+  "duration_seconds": [
+    70,
+    90
+  ],
+  "subtitle_lines": 2,
+  "minimum_text_px": 48,
+  "progress_bar": false,
+  "palettes": {
+    "sage": {
+      "bg": "#F5F0E5",
+      "ink": "#193C32",
+      "accent": "#28735E",
+      "soft": "#B6D6BE",
+      "dark": "#193C32"
+    },
+    "lavender": {
+      "bg": "#F2EBF5",
+      "ink": "#3D2E4D",
+      "accent": "#855E9F",
+      "soft": "#DFCCE8",
+      "dark": "#3D2E4D"
+    },
+    "terracotta": {
+      "bg": "#F5EFE5",
+      "ink": "#3F3329",
+      "accent": "#B95A30",
+      "soft": "#E8CFB9",
+      "dark": "#3F3329"
+    },
+    "ice": {
+      "bg": "#EEF4F3",
+      "ink": "#123E53",
+      "accent": "#347B88",
+      "soft": "#BFDDE0",
+      "dark": "#123E53"
+    }
+  },
+  "deliverables": [
+    "vertical_mp4",
+    "clean_narration_wav"
+  ],
+  "visual_policy": "Recognizable subject first; objects and causal mechanisms dominate. No generic text-card fallback."
+}

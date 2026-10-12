@@ -1,0 +1,156 @@
+{
+  "skill": "sebentar-paham-video",
+  "version": "2.1.1",
+  "files": [
+    {
+      "path": ".agents/skills/sebentar-paham-video/.gitignore",
+      "bytes": 29,
+      "sha256": "60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/SKILL.md",
+      "bytes": 11669,
+      "sha256": "5b935d5ce4ee5e80d98f4216d07dbb1bdc9138bc0c6e137375ca7e0fed193c06"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/agents/openai.yaml",
+      "bytes": 435,
+      "sha256": "40607dfd561e496e0c734735a339033babfe3dea0720e93db90dd0f4eb4e2693"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/brand.json",
+      "bytes": 1032,
+      "sha256": "d885315300543bbb241f0e7f15ccb09e4bd423c7de5438608ecd64687d8c8cff"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/example-episode.json",
+      "bytes": 6238,
+      "sha256": "c212b9881311ffc32048d20e768ad0ab81882c5bc2662e2c582308d662761adf"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/fonts/Inter.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/fonts/JetBrainsMono.ttf",
+      "bytes": 187208,
+      "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/fonts/inter_OFL.txt",
+      "bytes": 4376,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/fonts/jetbrainsmono_OFL.txt",
+      "bytes": 4399,
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/history-seed.json",
+      "bytes": 5115,
+      "sha256": "720f45fc4f810f19783aefe5e72c0f61543b31080119ef20ecdcf5265ccfcb5f"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/icon.svg",
+      "bytes": 1210,
+      "sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/reference-artwork.py",
+      "bytes": 7883,
+      "sha256": "f286e05862b9b29d00b14b5b7e8a590d087c784b79bb22351941052e9b5af7c8"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/scene-recipes.json",
+      "bytes": 4354,
+      "sha256": "773a56625be014233b2495b01e2dc3ef8173a3bbd7f98e10e6eaf8744df8fe76"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/template/artwork.py",
+      "bytes": 8612,
+      "sha256": "1d527fe2c315a51b4b3f1e37e71f9405d62cc542de02d8395818f7ee199f3774"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/template/engine.py",
+      "bytes": 32806,
+      "sha256": "6b3cdb77224be2fe5e11196e6edf02c235d51d4e64961ab1ff95401a37116f0e"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/template/illustrations.py",
+      "bytes": 10179,
+      "sha256": "c18b938af1d8a0a5ca757822a7213c8f244432f0477d5e63f81c675193c369f7"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/template/prepare_all.py",
+      "bytes": 777,
+      "sha256": "292a1f2dc207481aea481fe188061013c1c5546de7bded4d920fdb9e864ea6da"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/template/render_batch.py",
+      "bytes": 2762,
+      "sha256": "1cd11c4ebf1cf6bebde7a0b4481316023843fbcf49e370adf5b209a00a18edf7"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/template/validate.py",
+      "bytes": 5171,
+      "sha256": "801e91fd08d059c32df91395357f3d0e93decdb14b18787cf1b21853688b91d5"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/assets/voice-direction.json",
+      "bytes": 1943,
+      "sha256": "dbcf4c8eeb50b768d602c3d706088ba8df0cce355d6dd64760076aa5683b8062"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/references/audio.md",
+      "bytes": 7722,
+      "sha256": "891b3d160766817a4e89359e181f1c7aef04165bc0225b12fd5881858067bcc8"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/references/design.md",
+      "bytes": 11076,
+      "sha256": "501bf558b48405da76726bc0693a8808ec4015a68db39ea46c557dc7fcd1ac0c"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/references/portability.md",
+      "bytes": 2432,
+      "sha256": "8ec090cbbc6c0254308a79e32a5cf33bde3bf137274bb735238aff2c3951f0b4"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/references/schema.md",
+      "bytes": 7968,
+      "sha256": "d4fea9eb8b649b94da37af46246d7e4d932c52c4f743237cbbb0a0a3e91c66d5"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/references/series-context.md",
+      "bytes": 2790,
+      "sha256": "f76532a8206b2d5f70a51082cb4f3cd753e331e6c88c4b748f51de955dff39fe"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/references/sources-and-licenses.md",
+      "bytes": 2022,
+      "sha256": "d6045b9713d823a474a506dbf4154d2afd0b67ff8022a00ebcac2b0e4c1f51e2"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/scripts/requirements-tts.txt",
+      "bytes": 107,
+      "sha256": "c21d86aee44bdc597a8e9b50f47b3dbe48df110dc818531bed233300e0cd6971"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/scripts/requirements.txt",
+      "bytes": 45,
+      "sha256": "ba3acc6cad545f0e82f23ceb81bca040456b15c647e11edd615b7e3f0bce1c56"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/scripts/studio.py",
+      "bytes": 21088,
+      "sha256": "e0b8149e6f5ff31e0f9b971ea700cd83b14f253a8e753a422d9527a2408b6a68"
+    },
+    {
+      "path": ".agents/skills/sebentar-paham-video/scripts/voice.py",
+      "bytes": 22797,
+      "sha256": "418786d535e4e5232710e1af6df34f34db1849336903c12147e545d28c5cae9f"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "language": "id-ID",
+  "delivery": "conversational, youthful, clear, engaged; preserve English technical terms",
+  "target_words_per_minute": [
+    130,
+    155
+  ],
+  "hook": "Curious, animated and conversational; emphasize the surprise and pause before the question.",
+  "body": "Warm, engaged storytelling; medium pace, clear contrasts and natural emphasis.",
+  "mechanism": "Clear and engaged; slightly slow down on technical terms, then resume conversational pace.",
+  "caveat": "Slightly more serious but engaged; emphasize the limitation without exaggeration.",
+  "ending": "Warm and satisfied; slightly slower, a clear downward cadence, then a friendly upbeat invitation.",
+  "constraints": [
+    "No constant announcer intonation",
+    "No artificial shouting",
+    "Do not solve flat delivery only with gain or speed",
+    "Do not imitate a real person without authorization"
+  ],
+  "preferred_workflow": "Import approved expressive narration or use an explicitly configured TTS provider; audition a new voice before bulk generation.",
+  "cost_policy": "free_only; never enable billing or buy credits automatically",
+  "gemini_style": {
+    "hook": "curious and lightly surprised, conversational, a short pause before the question",
+    "body": "warm and relaxed storytelling with natural emphasis",
+    "mechanism": "clear and engaged, slightly slower on technical terms",
+    "caveat": "matter-of-fact but engaged, never robotic",
+    "ending": "warm and satisfied, slightly slower, resolved falling cadence"
+  },
+  "voice_design_persona": "A friendly Indonesian young adult narrator, natural conversational Jakarta-neutral accent, curious and warm, clear diction, relaxed pace. An original persona; not an imitation of any real person.",
+  "request_budget": "One provider request per episode (single take, then split). Never loop retries on a quota error. A fallback provider takes over a WHOLE episode, never half of one."
+}

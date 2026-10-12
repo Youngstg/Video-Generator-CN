@@ -1,0 +1,158 @@
+{
+  "mouse": {
+    "title": "Mouse Kamu Ternyata Memotret Meja",
+    "scripts": [
+      "Di bawah mouse optik, ada sensor yang terus mengambil gambar. Jadi, saat kamu menggeser mouse... ia sedang mengamati permukaan meja.",
+      "Lampu kecil menerangi permukaan. Lensa lalu memusatkan cahaya pantulannya ke sensor, supaya tekstur halus di bawah mouse bisa terlihat.",
+      "Sensor mengambil gambar berulang kali dengan sangat cepat. Setiap gambar menangkap pola tekstur permukaan tepat di bawah mouse.",
+      "Bayangin dua gambar tekstur meja. Di gambar pertama, ada bintik di sini. Di gambar berikutnya, bintik itu sudah bergeser.",
+      "Chip membandingkan pola tadi untuk memperkirakan arah dan besar gerakan. Informasi pergeseran inilah yang dikirim ke komputer, lalu menggerakkan kursor.",
+      "Makanya, permukaan berpengaruh. Kaca bisa menyulitkan sebagian sensor karena pola yang terbaca kurang jelas. Sensor tertentu dirancang untuk mengatasinya.",
+      "Jadi, kursor bisa mengikuti tanganmu... karena mouse membaca perubahan gambar. Baru tahu ada kamera kecil di bawahnya?"
+    ],
+    "headers": [
+      [
+        "MOUSE KAMU",
+        "MEMOTRET MEJA."
+      ],
+      [
+        "CAHAYA MASUK.",
+        "TEKSTUR TERLIHAT."
+      ],
+      [
+        "GAMBAR BARU.",
+        "TERUS-MENERUS."
+      ],
+      [
+        "POLA YANG SAMA.",
+        "POSISI BERGESER."
+      ],
+      [
+        "BANDINGKAN POLA.",
+        "KURSOR BERGERAK."
+      ],
+      [
+        "PERMUKAAN",
+        "IKUT BERPENGARUH."
+      ],
+      [
+        "SATU GESERAN.",
+        "BANYAK GAMBAR."
+      ]
+    ],
+    "sources": [
+      [
+        "Logitech: optical tracking, bagian 6.1",
+        "https://download01.logitech.com/web/ftp/pub/pdf/bluetooth/bluetooth-faq.pdf"
+      ],
+      [
+        "Logitech: tekstur, kaca, dan Darkfield",
+        "https://news.logitech.com/press-releases/news-details/2009/Logitech-Unveils-Mice-That-Work-Where-Others-Fail/default.aspx"
+      ],
+      [
+        "Logitech Darkfield Innovation Brief",
+        "https://www.logitech.com/images/pdf/briefs/Logitech_Darkfield_Innovation_Brief_2009.pdf"
+      ]
+    ],
+    "number": 6,
+    "filename": "06_Mouse_Memotret_Meja",
+    "branding": "SEBENTAR, PAHAM.",
+    "theme": {
+      "bg": "#F5F0E5",
+      "ink": "#193C32",
+      "accent": "#28735E",
+      "soft": "#B6D6BE",
+      "dark": "#193C32"
+    },
+    "minimums": [
+      7,
+      10,
+      11,
+      11,
+      12,
+      11,
+      9
+    ],
+    "notes": "Recovered episode used as an internal illustration example, not a fresh topic. Mouse sensor inset is a simplified diagram, not a specific sensor design.",
+    "visuals": [
+      {
+        "kind": "mouse",
+        "phase": "overview",
+        "subject": "An optical mouse on a desk next to a laptop",
+        "features": [
+          "curved mouse shell with split buttons and wheel",
+          "laptop screen with moving pointer"
+        ],
+        "action": "The physical mouse moves on wood and the laptop cursor follows.",
+        "purpose": "Di bawah mouse optik, ada sensor yang terus mengambil gambar. Jadi, saat kamu menggeser mouse... ia sedang mengamati permukaan meja."
+      },
+      {
+        "kind": "mouse",
+        "phase": "light",
+        "subject": "The optical underside of a mouse and an illuminated desk",
+        "features": [
+          "underside feet and red optical opening",
+          "light cone on textured wooden desk"
+        ],
+        "action": "Light reaches the desk and reflects toward the mouse sensor.",
+        "purpose": "Lampu kecil menerangi permukaan. Lensa lalu memusatkan cahaya pantulannya ke sensor, supaya tekstur halus di bawah mouse bisa terlihat."
+      },
+      {
+        "kind": "mouse",
+        "phase": "sampling",
+        "subject": "A mouse sensor observing enlarged wood texture",
+        "features": [
+          "visible underside sensor",
+          "the same highlighted wood knot in both circular crops"
+        ],
+        "action": "Repeated surface captures reveal a tracked knot.",
+        "purpose": "Sensor mengambil gambar berulang kali dengan sangat cepat. Setiap gambar menangkap pola tekstur permukaan tepat di bawah mouse."
+      },
+      {
+        "kind": "mouse",
+        "phase": "compare",
+        "subject": "Two magnified images of the same wood grain",
+        "features": [
+          "wood grain and a marked knot",
+          "consecutive image crops"
+        ],
+        "action": "The same knot moves between consecutive surface images.",
+        "purpose": "Bayangin dua gambar tekstur meja. Di gambar pertama, ada bintik di sini. Di gambar berikutnya, bintik itu sudah bergeser.",
+        "mood": "dark"
+      },
+      {
+        "kind": "mouse",
+        "phase": "compute",
+        "subject": "An optical mouse, tracking chip and laptop",
+        "features": [
+          "mouse wheel and cable",
+          "chip pins and laptop keyboard"
+        ],
+        "action": "Displacement travels from optical mouse through chip to the computer cursor.",
+        "purpose": "Chip membandingkan pola tadi untuk memperkirakan arah dan besar gerakan. Informasi pergeseran inilah yang dikirim ke komputer, lalu menggerakkan kursor."
+      },
+      {
+        "kind": "mouse",
+        "phase": "glass",
+        "subject": "A mouse above glass with magnified reflective surface",
+        "features": [
+          "mouse underside and sensor",
+          "glass highlights and faint texture"
+        ],
+        "action": "A glass detail has fewer visible features; behavior depends on the sensor.",
+        "purpose": "Makanya, permukaan berpengaruh. Kaca bisa menyulitkan sebagian sensor karena pola yang terbaca kurang jelas. Sensor tertentu dirancang untuk mengatasinya."
+      },
+      {
+        "kind": "mouse",
+        "phase": "ending",
+        "subject": "A real mouse and the laptop cursor it controls",
+        "features": [
+          "mouse buttons, wheel and cable",
+          "computer screen, keyboard and pointer"
+        ],
+        "action": "Return to the physical mouse and moving cursor to complete the explanation.",
+        "purpose": "Jadi, kursor bisa mengikuti tanganmu... karena mouse membaca perubahan gambar. Baru tahu ada kamera kecil di bawahnya?"
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "scope": "Partial recovered series history. Merge with newer project history; do not assume missing episodes never existed.",
+  "missing_details": "Exact mapping for 1–3, 7–8 and 19–26 is not included. Recover from artifacts before claiming these episodes did not exist.",
+  "episodes": [
+    {
+      "number": 4,
+      "filename": "04_QR_Rusak_Masih_Terbaca",
+      "title": "QR Rusak Masih Terbaca",
+      "angle": "QR Rusak Masih Terbaca",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 5,
+      "filename": "05_GPS_dan_Teori_Einstein",
+      "title": "GPS dan Teori Einstein",
+      "angle": "GPS dan Teori Einstein",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 6,
+      "filename": "06_Mouse_Memotret_Meja",
+      "title": "Mouse Memotret Meja",
+      "angle": "Mouse Memotret Meja",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 9,
+      "filename": "09_Password_Sama_Hash_Berbeda",
+      "title": "Password Sama Hash Berbeda",
+      "angle": "Password Sama Hash Berbeda",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 10,
+      "filename": "10_JWT_Bisa_Dibaca_Tanpa_Kunci",
+      "title": "JWT Bisa Dibaca Tanpa Kunci",
+      "angle": "JWT Bisa Dibaca Tanpa Kunci",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 11,
+      "filename": "11_Git_Menyimpulkan_Rename",
+      "title": "Git Menyimpulkan Rename",
+      "angle": "Git Menyimpulkan Rename",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 12,
+      "filename": "12_TCP_Batas_Pesan",
+      "title": "TCP Batas Pesan",
+      "angle": "TCP Batas Pesan",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 13,
+      "filename": "13_ID_Lompat_Bukan_Data_Hilang",
+      "title": "ID Lompat Bukan Data Hilang",
+      "angle": "ID Lompat Bukan Data Hilang",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 14,
+      "filename": "14_ZIP_Kecil_Isi_Raksasa",
+      "title": "ZIP Kecil Isi Raksasa",
+      "angle": "ZIP Kecil Isi Raksasa",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 15,
+      "filename": "15_Satu_IP_Banyak_Server",
+      "title": "Satu IP Banyak Server",
+      "angle": "Satu IP Banyak Server",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 16,
+      "filename": "16_Memori_Dijanjikan_Belum_Tersedia",
+      "title": "Memori Dijanjikan Belum Tersedia",
+      "angle": "Memori Dijanjikan Belum Tersedia",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 17,
+      "filename": "17_Google_Memperlambat_Jam",
+      "title": "Google Memperlambat Jam",
+      "angle": "Google Memperlambat Jam",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 18,
+      "filename": "18_Bayar_Domain_Ke_Siapa",
+      "title": "Bayar Domain Ke Siapa",
+      "angle": "Bayar Domain Ke Siapa",
+      "status": "recovered_artifact"
+    },
+    {
+      "number": 27,
+      "filename": "27_AI_Menemukan_Kunci_Benchmark",
+      "title": "AI Menemukan Kunci Benchmark",
+      "angle": "AI Menemukan Kunci Benchmark",
+      "key": "eval",
+      "status": "recovered_source_project"
+    },
+    {
+      "number": 28,
+      "filename": "28_Jawaban_Kosong_Token_Terpakai",
+      "title": "Jawaban Kosong Token Terpakai",
+      "angle": "Jawaban Kosong Token Terpakai",
+      "key": "tokens",
+      "status": "recovered_source_project"
+    },
+    {
+      "number": 29,
+      "filename": "29_AI_Memilih_Bagian_Video",
+      "title": "AI Memilih Bagian Video",
+      "angle": "AI Memilih Bagian Video",
+      "key": "video",
+      "status": "recovered_source_project"
+    },
+    {
+      "number": 30,
+      "filename": "30_Satu_API_Call_Banyak_Langkah",
+      "title": "Satu API Call Banyak Langkah",
+      "angle": "Satu API Call Banyak Langkah",
+      "key": "agent",
+      "status": "recovered_source_project"
+    },
+    {
+      "number": 31,
+      "filename": "31_Karakter_Suara_Dari_Prompt",
+      "title": "Karakter Suara Dari Prompt",
+      "angle": "Karakter Suara Dari Prompt",
+      "key": "voice",
+      "status": "recovered_source_project"
+    },
+    {
+      "number": 32,
+      "filename": "32_JSON_Valid_Isi_Bisa_Salah",
+      "title": "JSON Valid Isi Bisa Salah",
+      "angle": "JSON Valid Isi Bisa Salah",
+      "key": "json",
+      "status": "recovered_source_project"
+    },
+    {
+      "number": 33,
+      "filename": "33_Daftar_Tools_Memakan_Context",
+      "title": "Daftar Tools Memakan Context",
+      "angle": "Daftar Tools Memakan Context",
+      "key": "tools",
+      "status": "recovered_source_project"
+    }
+  ],
+  "already_discussed_topics_without_reliable_episode_number": [
+    "QR codes and duplicate content"
+  ],
+  "do_not_recycle_original_brief": [
+    "Harvard Mark II moth / bug in 1947",
+    "0.1 + 0.2 binary floating point",
+    "npm left-pad removal",
+    "Y2038",
+    "Knight Capital deployment loss",
+    "Mars Climate Orbiter unit mismatch",
+    "Cloudflare lava lamps"
+  ],
+  "known_number_ranges": [
+    [
+      4,
+      6
+    ],
+    [
+      9,
+      18
+    ],
+    [
+      27,
+      33
+    ]
+  ]
+}

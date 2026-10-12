@@ -1,0 +1,193 @@
+{
+  "gps_broadcast": {
+    "kind": "objects",
+    "subject": "Earth, a GPS satellite with solar panels, and a phone receiver",
+    "features": [
+      "blue ocean and green continents",
+      "satellite solar panels, gold body and antenna",
+      "phone map pin and screen"
+    ],
+    "action": "The satellite moves across the sky while its radio broadcast reaches a phone on the visible side of Earth.",
+    "purpose": "Illustrate one satellite broadcast to a receiver with a clear line of sight. Full positioning requires multiple satellites; this is a single-link sketch, not a complete positioning diagram.",
+    "objects": [
+      {
+        "id": "earth",
+        "sprite": "earth",
+        "x": 420,
+        "y": 1160,
+        "width": 630
+      },
+      {
+        "id": "sat",
+        "sprite": "satellite",
+        "x": 420,
+        "y": 725,
+        "width": 350,
+        "motion": {
+          "kind": "move",
+          "dx": 95,
+          "dy": 0,
+          "duration": 8
+        }
+      },
+      {
+        "id": "receiver",
+        "sprite": "phone",
+        "x": 815,
+        "y": 1040,
+        "width": 285
+      }
+    ],
+    "links": [
+      {
+        "from": "sat",
+        "to": "receiver",
+        "meaning": "One-way GPS satellite broadcast received by the phone"
+      }
+    ],
+    "annotations": [
+      {
+        "x": 540,
+        "y": 1480,
+        "text": "SKEMA • BUKAN SKALA ASLI",
+        "width": 920
+      }
+    ]
+  },
+  "hero_closeup": {
+    "kind": "objects",
+    "subject": "One large hero object seen close up",
+    "features": [
+      "TODO distinguishing shape",
+      "TODO visible detail"
+    ],
+    "action": "A directed signal leaves the hero toward a small receiver",
+    "purpose": "Hook: show the surprising thing big in the first 1.5 seconds",
+    "backdrop": "spot",
+    "objects": [
+      {
+        "id": "hero",
+        "sprite": "satellite",
+        "x": 540,
+        "y": 960,
+        "width": 700,
+        "label": "SATELIT"
+      },
+      {
+        "id": "rx",
+        "sprite": "phone",
+        "x": 850,
+        "y": 1330,
+        "width": 300
+      }
+    ],
+    "links": [
+      {
+        "from": "hero",
+        "to": "rx",
+        "meaning": "one-way broadcast"
+      }
+    ],
+    "annotations": [
+      {
+        "x": 540,
+        "y": 1480,
+        "text": "DARI ORBIT",
+        "at": 1.2
+      }
+    ]
+  },
+  "split_compare": {
+    "kind": "objects",
+    "subject": "Two objects side by side, before and after",
+    "features": [
+      "TODO left state",
+      "TODO right state"
+    ],
+    "action": "The right object appears on its cue; a signal shows the change",
+    "purpose": "Contrast two states so the difference is obvious without reading",
+    "backdrop": "blobs",
+    "objects": [
+      {
+        "id": "before",
+        "sprite": "laptop",
+        "x": 300,
+        "y": 1000,
+        "width": 480,
+        "label": "SEBELUM"
+      },
+      {
+        "id": "after",
+        "sprite": "laptop",
+        "x": 780,
+        "y": 1000,
+        "width": 480,
+        "label": "SESUDAH",
+        "at": 2.0
+      }
+    ],
+    "links": [
+      {
+        "from": "before",
+        "to": "after",
+        "meaning": "the change being explained",
+        "at": 2.4
+      }
+    ]
+  },
+  "flow_three": {
+    "kind": "objects",
+    "subject": "Three actual devices in a request path",
+    "features": [
+      "TODO device 1",
+      "TODO device 2",
+      "TODO device 3"
+    ],
+    "action": "A packet travels left to right through each device",
+    "purpose": "Show an ordered path with real endpoints",
+    "backdrop": "grid",
+    "mood": "dark",
+    "objects": [
+      {
+        "id": "a",
+        "sprite": "phone",
+        "x": 210,
+        "y": 1000,
+        "width": 340,
+        "label": "HP"
+      },
+      {
+        "id": "b",
+        "sprite": "router",
+        "x": 540,
+        "y": 1000,
+        "width": 340,
+        "label": "ROUTER",
+        "at": 1.0
+      },
+      {
+        "id": "c",
+        "sprite": "server",
+        "x": 870,
+        "y": 1000,
+        "width": 340,
+        "label": "SERVER",
+        "at": 2.0
+      }
+    ],
+    "links": [
+      {
+        "from": "a",
+        "to": "b",
+        "meaning": "request",
+        "at": 1.2
+      },
+      {
+        "from": "b",
+        "to": "c",
+        "meaning": "forwarded request",
+        "at": 2.2
+      }
+    ]
+  }
+}
